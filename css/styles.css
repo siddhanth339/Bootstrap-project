@@ -1,0 +1,106 @@
+
+h1
+{   
+    margin: 0;
+    background-color: orangered;
+    color: floralwhite;
+}
+.navbar-dark
+{
+    background-color: royalblue;
+}
+nav ul li a:hover, .login:hover, footer a:hover
+{
+    color:white;
+    background-color: orangered;
+    text-decoration: none;
+}
+.login
+{
+    color:white;
+    float:right;
+}
+ /* Add Zoom Animation */
+ .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+    
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    box-sizing: border-box;
+    background-color: #ccc;
+    
+  }
+/* Modal Content/Box */
+.modal-content {
+background-color: #fefefe;
+margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+border: 1px solid #888;
+width: 40%; /* Could be more or less, depending on screen size */
+}
+
+
+/* Center the image and position the close button */
+.imgcontainer {
+text-align: center;
+margin: 24px 0 12px 0;
+position: relative;
+}
+
+img.logo {
+width: 40%;
+border-radius: 50%;
+}
+
+.carousel-item
+{
+    height: 700px;
+}
+.carousel-item img
+{
+    height: 700px;
+}
+
+h3
+{
+    text-decoration:underline;
+    color:grey;
+    font-family: sans-serif;
+}
+
+.card
+{
+    font-size:x-small;
+}
+.card-header
+{
+    border-left:5px solid rgb(255, 81, 0);
+}
+
+footer
+{
+    background-color: royalblue;
+}
+footer a
+{
+    color: white;
+}
+.vm
+{
+    list-style-image: url("https://www.fg-a.com/bullets/animated-bullet-25.GIF");
+}
